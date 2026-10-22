@@ -6,7 +6,7 @@
 }
 
 body {
-  background-image: url(imagens/fundo-madeira.jpg);
+  background-image: url(../imagens/fundo-madeira.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
@@ -24,7 +24,7 @@ body {
 }
 
 section#celular {
-  background-image: url(imagens/frame-iphone.png);
+  background-image: url(../imagens/frame-iphone.png);
   background-repeat: no-repeat;
   height: 500px;
   width: 250px;
@@ -55,9 +55,11 @@ section#aplicativos img {
   box-sizing: border-box;
 }
 
-section#aplicativos img:hover{
-    border: 2px solid rgba(255, 255, 255, 0.068);
-    transform: translate(-3px, -3px);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
-   transition: transform 0.5s, 1s;
+section#aplicativos img:hover {
+  border: 2px solid rgba(255, 255, 255, 0.068);
+  transform: translate(-3px, -3px);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
+  transition:
+    transform 0.5s,
+    1s;
 }
