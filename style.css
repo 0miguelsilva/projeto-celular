@@ -18,29 +18,46 @@ body {
   width: 100vw;
 }
 
-::-webkit-scrollbar{
-    width: 0px;
-    height: 0px;
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
 }
 
 section#celular {
-    background-image: url(imagens/frame-iphone.png);
-    background-repeat: no-repeat;
-    height: 500px;
-    width: 250px;
-    background-size: 100% 100%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  background-image: url(imagens/frame-iphone.png);
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 250px;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-iframe#tela{
-    position: relative;
-    top: 64px;
-    left: 18px;
-    height: 375px;
-    width: 214px;
-   
-    
+iframe#tela {
+  position: relative;
+  top: 64px;
+  left: 18px;
+  height: 375px;
+  width: 214px;
+}
+
+section#aplicativos {
+  text-align: right;
+}
+
+section#aplicativos img {
+  border-radius: 50%;
+  width: 50px;
+  margin: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.438);
+  box-sizing: border-box;
+}
+
+section#aplicativos img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.068);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
+   transition: transform 0.5s, 1s;
 }
